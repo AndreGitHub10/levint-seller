@@ -1,0 +1,10 @@
+.content-warper {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .content-warper {
+        margin-left: var(--side-nav-width);
+        width: calc(100% - var(--side-nav-width));
+    }
+}
